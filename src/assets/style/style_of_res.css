@@ -519,7 +519,11 @@ body {
 
 /* ---------------------------------------------- main_menu_main */
 .main_menu_main {
-    padding-top: 55px;
+    margin-top: 55px;
+    max-height: 500px;
+    overflow: scroll;
+    scrollbar-width: thin;
+    overflow-x: hidden;
 }
 /* ----------------------------------------------- main_menu_block */
 .main_menu_block {

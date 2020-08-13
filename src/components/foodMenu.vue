@@ -43,67 +43,7 @@
                 <span><i class="fa fa-dollar"></i>{{ div.price }}</span>
               </div>
               </div>
-              
-              <!-- <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Ultimate organic fruit salad</h4>
-                  <p>survived not only five centuries but the leap</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Plain pancakes</h4>
-                  <p>Donec eget augue at diam euismod viverra</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Toasted jam</h4>
-                  <p>Phasellus a ex accumsan, sollicitudin</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Toasted jam</h4>
-                  <p>Phasellus a ex accumsan, sollicitudin</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div> -->
             </div>
-
-            <!-- <div class="col-12 col-md-6 col-lg-5">
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Ultimate organic fruit salad</h4>
-                  <p>survived not only five centuries but the leap</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Plain pancakes</h4>
-                  <p>Donec eget augue at diam euismod viverra</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Toasted jam</h4>
-                  <p>Phasellus a ex accumsan, sollicitudin</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-              <div class="main_menu_block">
-                <div class="block_text">
-                  <h4>Toasted jam</h4>
-                  <p>Phasellus a ex accumsan, sollicitudin</p>
-                </div>
-                <span><i class="fa fa-dollar"></i>50.00</span>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
@@ -120,7 +60,7 @@ export default {
         {
           title: "Breakfast",
           icon: "fa fa-mug-hot",
-          exact: false,
+          exact: true,
         },
         {
           title: "Lunch",
@@ -150,7 +90,7 @@ export default {
         {
           title: "All",
           icon: "fa fa-book-open",
-          exact: true,
+          exact: false,
         }
       ],
       breakfast: [
